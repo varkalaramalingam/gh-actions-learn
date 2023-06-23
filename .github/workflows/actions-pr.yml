@@ -9,5 +9,7 @@ jobs:
     steps:
       - name: Branch Main
         run: echo "This is main branch"
+      - name: Branch test-pr
+        run: echo "This is test-pr branch"
   
     
