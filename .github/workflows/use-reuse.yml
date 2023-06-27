@@ -7,4 +7,4 @@ jobs:
       - name: echo test
         run: echo "using reusable workflow"
       - name: use reusable
-        uses: ./reusable.yml
+        uses: ./.github/workflows/reusable.yml
