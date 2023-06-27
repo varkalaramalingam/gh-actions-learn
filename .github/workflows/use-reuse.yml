@@ -2,9 +2,4 @@ name: call reusable workflow
 on: push
 jobs:
   call-reusable:
-    runs-on: ubuntu-latest
-    steps:
-      - name: echo test
-        run: echo "using reusable workflow"
-      - name: use reusable
-        uses: ./.github/workflows/reusable.yml
+    uses: ./.github/workflows/reusable.yml
